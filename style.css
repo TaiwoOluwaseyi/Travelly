@@ -52,9 +52,10 @@ nav ul {
     flex: 2 1 40rem;
 }
 .hero {
-    background: url('./img/landing-page.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), transparent), url('./img/landing-page.jpg');
     min-height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: white;
 }
