@@ -85,11 +85,40 @@ nav ul {
 }
 
 
-/*Benefits Section */
+/*locations Section */
+    #locations {
+        min-height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5), transparent), url('./img/new-york-page.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .locations-head{
+        width: 90%;
+        margin: auto;
+    }
+    .locations-head h2 {
+        padding: 1rem 0rem;
+        text-decoration: underline;
+        text-decoration-thickness: 0.4rem;
+    }
+    .locations-head h3 {
+        padding: 4rem 0rem;
+    }
 
 
 
 
+
+
+
+/*Media Query*/
 
 @media screen and (max-width: 932px) {
     html {
