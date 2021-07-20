@@ -36,6 +36,11 @@ button {
     color: white;
     font-size: 1.8rem;
     cursor: pointer;
+    transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #27394e;
 }
 a {
     color: white;
@@ -97,6 +102,7 @@ nav ul {
         /* flex-direction: column; */
         /* justify-content: center; */
         align-items: center;
+        overflow: hidden;
         /* text-align: center; */
     }
 
@@ -117,17 +123,29 @@ nav ul {
         top: 0%;
         right: 0%;
         width: 70%;
+        animation: cloudAnimation 3s infinite alternate ease-in-out;
     }
 
-    /* .moving-cloud-1{ */
-
-    /* } */
+    .moving-cloud-1{
+        animation: cloudAnimation 4s infinite alternate ease-in-out;
+    }
 
     .moving-cloud-2 {
         top: 20%;
         z-index: -1;
         opacity: 0.5;
     }
+
+    @keyframes cloudAnimation {
+        from {
+            transform: translate(10%, -10%);
+        }
+        to {
+            transform: translate(0%, 0%);
+        }
+    }
+
+
 
 
 
