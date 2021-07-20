@@ -103,7 +103,7 @@ nav ul {
         /* justify-content: center; */
         align-items: center;
         overflow: hidden;
-        /* text-align: center; */
+        text-align: center;
     }
 
     .locations-head{
@@ -122,17 +122,18 @@ nav ul {
         position: absolute;
         top: 0%;
         right: 0%;
-        width: 70%;
+        width: 80%;
         animation: cloudAnimation 3s infinite alternate ease-in-out;
     }
 
     .moving-cloud-1{
-        animation: cloudAnimation 4s infinite alternate ease-in-out;
+        animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+        z-index: -1;
     }
 
     .moving-cloud-2 {
         top: 20%;
-        z-index: -1;
+        z-index: -2;
         opacity: 0.5;
     }
 
@@ -164,6 +165,15 @@ nav ul {
     }
     #logo {
         padding: 2rem;
+    }
+    .cloud {
+        height: 40rem;
+    }
+    .moving-cloud-1 {
+        z-index: -1;
+    }
+    .moving-cloud-2 {
+        z-index: -2;
     }
 
 
