@@ -146,6 +146,39 @@ nav ul {
         }
     }
 
+    /*Benefits section */
+
+    .benefits-head {
+        background: #343c44;
+        padding: 3rem;
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    .benefits-head h3 {
+        padding: 1rem;
+    }
+    .cards {
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+    .card {
+        background: lightcoral;
+        flex: 1 1 25rem;
+        min-height: 40vh;
+        margin: 2rem 5rem;
+    }
+
+    .cards img  {
+        height: 100px;
+    }
+
 
 
 
