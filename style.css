@@ -191,7 +191,7 @@ nav ul {
         padding: 1rem; 
     }
 
-    #contact {
+    #contacts {
         min-height: 100vh;
         background: linear-gradient(rgba(0,0,0,0.5), transparent),
          url('./img/contact-mountain.png');
