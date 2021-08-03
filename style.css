@@ -21,10 +21,12 @@ li,button,label,input,p {
 }
 h2 {
     font-size: 4.8rem;
+    /* color: white; */
 }
 h3 {
     font-size: 3rem;
     font-weight: 400;
+    /* color: white; */
 }
 h4,h5 {
     font-size: 2.8rem;
@@ -93,6 +95,7 @@ nav ul {
 }
 
 
+
 /*locations Section */
     #locations {
         min-height: 100vh;
@@ -150,7 +153,7 @@ nav ul {
     }
 
     /*Benefits section */
-
+ 
     .benefits-head {
         background: #343c44;
         padding: 3rem;
@@ -203,6 +206,7 @@ nav ul {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 2rem;
     }
     .form-wrapper {
         background: rgba(19,28,39,0.8);
@@ -298,7 +302,7 @@ nav ul {
     footer h5 {
         padding-bottom: 3rem;
     }
-
+    
 
 
 
